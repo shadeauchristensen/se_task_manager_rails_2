@@ -389,7 +389,7 @@ def show
 end
 ```
 
-Navigate to https://localhost:3000/api/v1/tasks/1 and you should now see the json for that particular task!
+Navigate to http://localhost:3000/api/v1/tasks/1 and you should now see the json for that particular task!
 
 What is this `params` that we are passing into the `find` method? Let's throw a `binding.pry` at the top of our `show` action and see what we can find:
 
