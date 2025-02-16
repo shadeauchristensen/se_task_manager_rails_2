@@ -638,8 +638,40 @@ Congrats! You have finished your first Rails API that can handle full CRUD funct
 
 ## Checks for Understanding
 
-1. Define CRUD.
-1. Define MVC.
-1. What two files would you need to create/modify for a Rails application to respond to a GET request to /api/v1/tasks, assuming you have a Task model.
-1. What are params? Where do they come from?
-1. What is the purpose of a serializer?
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+CRUD stands for Create, Read, Update, Delete
+
+MVC stands for Model-View-Controller
+
+What two files would you need to create/modify for a Rails application to respond to a GET request to /api/v1/tasks, assuming you have a Task model?:
+    1.  Controller File: Create api/v1/tasks_controller.rb with an index action.
+    2.  Routes File: Update config/routes.rb to define the route.
+
+Params are a hash-like object that holds data sent by the user through forms, URLs, or API requests
+
+A serializer formats model data into a specific structure for API responses, ensuring consistency and reducing unnecessary data.
+
